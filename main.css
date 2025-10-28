@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+/*END OF RESET*/
+
+
+/*FONTS*/
+
+
+h1 {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-size: 150pt;
+  font-style: normal;
+  color: white;
+  text-align:center;
+  text-decoration: underline;
+  margin: 0px 0px 0px 20px;
+}
+
+h2{font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-size: 60pt;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 0px 0px 0px 20px;
+}
+
+h3{font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-size: 20pt;
+  font-style: normal;
+  color: white;
+  text-align: right;
+  margin: 0px 30px 0px 0px;
+}
+
+h4{font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-size: 30pt;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  background-color: firebrick;
+}
+
+h6{font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-size: 25pt;
+  font-style: normal;
+  color: cadetblue;
+  text-align: center;
+  background-color: maroon;
+}
+
+p{font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: white;}
+
+
+  /*END OF FONTS*/
+ 
+header{background-color:firebrick;
+height: auto;
+width: auto;
+padding: 10px 10px 10px 10px;
+align-items: right;}
+
+footer
+{background-color:firebrick;
+height: auto;
+width: auto;
+padding: 20px 40px 10px 10px;
+text-align: right;
+align-items: right;}
+
+img{align-items:center;
+  height: 400px;
+  width: 600px;
+  margin: 10px 30px 40px 30px;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 100px;}
+
+article {width: 675px;
+  height: auto;
+  margin:0px 20px 60px 20px; 
+padding: 10px 10px 10px 10px;
+    border: 10px solid cadetblue;
+       border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: firebrick;}
+
+a{font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-size: 30pt;
+  font-style: normal;
+  color: white;
+  margin: 5px 5px 5px 5px;
+  background-color: firebrick;
+}
+
+a:hover{font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-size: 30pt;
+  font-style: normal;
+  color:cadetblue;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  background-color: firebrick;
+}
+
+div{
+  background-color: maroon;
+align-items: center;
+height: auto;
+width: auto;
+padding: 50px 20px 60px 20px;
+ border: cadetblue 10px solid;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+text-align: center;
+}
+
+
+/* HOME PAGE*/
+body{background-color: maroon;
+background-image: url(carousel3.jpg);
+height: 100vh;
+width: auto;
+background-size: cover;
+background-position: center;
+}
+
+.fa {text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;}
+
+.fa:hover {
+    opacity: 0.7;}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;}
+
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;}
+
+.fa-instagram {
+  background: #125688;
+  color: white;}
+
+  .fa-reddit {
+  background: #ff5700;
+  color: white;}
+
+
+
+/*ATTRACTIONS PAGE */
+main{background-color: maroon;
+align-items: center;
+height: auto;
+width: auto;
+padding: 0px 10px 60px 10px;
+ border-bottom:10px solid cadetblue;
+ border-right:10px solid cadetblue; 
+ border-left: 10px solid cadetblue;;
+display: flex;
+flex-wrap: wrap;
+justify-content: center
+}
+
+aside{  background-color: maroon;
+align-items:center;
+height: 100px;
+width: auto;
+padding: 10px 10px 60px 10px;
+ border-top:10px solid cadetblue;
+ border-right:10px solid cadetblue; 
+ border-left: 10px solid cadetblue;;
+display: flex;
+flex-wrap: wrap;
+justify-content: center}
+
+/*NEWSLETTER*/
+form{align-items: center;}
+
+label{font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-size: 25pt;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  background-color: maroon}
+
+  input{
+font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  background-color: cadetblue;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  outline: solid white 2px;
+  }
+
+/*INFO PAGES*/
+
+section{
+  background-color: maroon;
+align-items: center;
+height: auto;
+width: auto;
+padding: 0px 0px 60px 0px;
+ border-bottom:10px solid cadetblue;
+ border-right:10px solid cadetblue; 
+ border-left: 10px solid cadetblue;;
+display: flex;
+flex-wrap: wrap;
+justify-content: center
+}
+
+ul{border: firebrick dotted 10px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  height: 400px;
+  width:400px ;
+margin: 0px 20px 20px 20px;
+padding:5px 5px 5px 10px;
+}
+
+
+
+
+
